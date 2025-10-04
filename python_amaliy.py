@@ -1,14 +1,24 @@
 # def dict_to_list(d):
 #     return d
-#
+
 # data = {
 #   "D": 1,
 #   "B": 2,
 #   "C": 3
 # }
-#
+
 # print(dict_to_list(data))
-#
+def dict_to_list(d):
+    return sorted(d.items())
+
+print(dict_to_list({'a': 1, 'b': 2, 'c': 3}))
+print(dict_to_list({
+  "likes": 2,
+  "dislikes": 3,
+  "followers": 10
+}
+))
+
 
 
 
